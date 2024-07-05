@@ -3,8 +3,8 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel, TextGenerationPipeline
 
 # Function to load tokenizer and model
 def load_model():
-    tokenizer_path = r'C:\Users\shiva\Desktop\streamlit-projects\path_to_save'
-    model_path = r'C:\Users\shiva\Desktop\streamlit-projects\path_to_save'
+    tokenizer_path = r'path_to_save'
+    model_path = r'path_to_save'
 
     # Load tokenizer and model
     tokenizer = GPT2Tokenizer.from_pretrained(tokenizer_path)
